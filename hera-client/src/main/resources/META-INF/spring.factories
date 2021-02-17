@@ -1,0 +1,6 @@
+# Auto Configure
+org.springframework.context.ApplicationContextInitializer=\
+com.werner.framework.spring.boot.HeraApplicationContextInitializer
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.werner.framework.spring.boot.HeraApplicationContextInitializer
+
